@@ -34,6 +34,7 @@ class Main {
     }
 
     public static double getRes(double a, double b, char sign) {
+        /*
         return switch (sign) {
             case '+' -> a + b;
             case '-' -> a - b;
@@ -41,6 +42,9 @@ class Main {
             case '*' -> a * b;
             default -> 0;
         };
+
+         */
+        return 0;
     }
 
     public static String convert(String ex) {
@@ -82,11 +86,16 @@ class Main {
     }
 
     private static int priority(char operator) {
+        /*
         return switch (operator) {
             case '^' -> 3;
             case '*', '/' -> 2;
             case '+', '-' -> 1;
             default -> 0;
         };
+
+         */
+
+        return 0;
     }
 }
